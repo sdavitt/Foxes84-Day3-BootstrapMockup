@@ -1,0 +1,19 @@
+.col-8 {
+    background-color: lightblue;
+}
+
+div.col-6:nth-child(2){
+    background-color: lightcoral;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.nav-link:hover{
+    background-color: cadetblue !important;
+}

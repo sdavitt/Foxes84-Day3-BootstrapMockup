@@ -1,0 +1,12 @@
+.row {
+    margin: 0;
+}
+
+.navbar {
+    justify-content: flex-start;
+}
+
+#sidetopimg{
+    max-width: 60%;
+    align-self: center;
+}
