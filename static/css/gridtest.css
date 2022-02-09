@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "header header header header"
+    "content content . sidebar"
+    ". footer footer .";
+}
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-2 {
+    grid-area: content;
+}
+
+.item-3 {
+    grid-area: sidebar;
+}
+
+.item-4 {
+    grid-area: footer;
+    max-width: 100%;
+    height:auto;
+}

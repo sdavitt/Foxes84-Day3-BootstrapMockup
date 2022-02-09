@@ -10,3 +10,53 @@
     max-width: 60%;
     align-self: center;
 }
+
+
+#imggrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1em;
+    grid-template-areas:
+    "i1 i2 i3"
+    "i4 i5 i6"
+    "i7 i8 i9";
+}
+
+#galleryimg-1 {
+    grid-area: i1;
+}
+
+#galleryimg-2 {
+    grid-area: i2;
+}
+
+#galleryimg-3 {
+    grid-area: i3;
+}
+
+#galleryimg-4 {
+    grid-area: i4;
+}
+
+#galleryimg-5 {
+    grid-area: i5;
+}
+
+#galleryimg-6 {
+    grid-area: i6;
+}
+
+#galleryimg-7 {
+    grid-area: i7;
+}
+
+#galleryimg-8 {
+    grid-area: i8;
+}
+
+#galleryimg-9 {
+    grid-area: i9;
+}
+
+
